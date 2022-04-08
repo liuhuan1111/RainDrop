@@ -2,7 +2,7 @@ import altair as alt
 import pandas as pd
 
 #for line in open('./MSELoss_list.txt')
-with open(r'G:/Desktop/MSELoss_list.txt','r',encoding='utf-8') as file:
+with open('./MSELoss_list.txt','r',encoding='utf-8') as file:
     content_list = file.readlines()
 ii=[i+1 for i in range(len(content_list))]
 # print(ii)
