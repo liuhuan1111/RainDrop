@@ -2,8 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 out1 = np.loadtxt(".\MSELoss_list.txt")
-out2 = np.loadtxt(".\Desktop\MAELoss_list.txt")
-out3 = np.loadtxt(".\Desktop\HuberLoss_list.txt")
+out2 = np.loadtxt(".\MAELoss_list.txt")
+out3 = np.loadtxt(".\HuberLoss_list.txt")
 
 plt.figure(dpi=500)
 x = range(0, 2250)
