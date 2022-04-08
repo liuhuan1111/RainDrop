@@ -16,7 +16,6 @@ brotlipy==0.7.0
 cachetools==4.2.2
 certifi==2021.5.30
 clang==5.0
-clyent==1.2.2
 compact==0.1.2
 comtypes==1.1.10
 conda==4.10.3
